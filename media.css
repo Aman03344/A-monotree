@@ -1,0 +1,183 @@
+@media (max-width: 480px) {
+
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        text-align: center;
+        /* border: 1px solid purple; */
+    }
+
+    .container{
+        width: 100%;
+        height: auto;
+    }
+
+    .nav-bar{
+        width: 100%;
+        height: 70px;
+        background-color: white;
+        /* position: fixed;
+        top: 0; */
+    }
+
+    .logo-section{
+        width: 50%;
+    }
+
+    .text-content{
+        display: none;
+    }
+
+    .btn-container{
+        display: none;
+    }
+    
+    .mobile-icons{
+        width: 50%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 20px;
+    }
+
+    .mobile-icons button{
+        width: 100px;
+        height: 35px;
+        background: none;
+        border: none;
+        font-size: 15px;
+        color: rgba(0, 0, 0, 0.832);
+    }
+    
+    .mobile-icons i:nth-child(2){
+        padding-right: 30px;
+        font-size: 22px;
+    }
+
+    .heading-images-con{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .heading{
+        width: 100%;
+        height: auto;
+    }
+
+    .heading img{
+        padding-left: 25px;
+        width: 70%;
+    }
+
+    .paragraph-section{
+        width: 100%;
+        height: auto;
+    }
+
+    .paragraph-section p{
+
+        height: auto;
+        font-size: 17px;
+    }
+
+    .input-button{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 0%;
+
+    }
+
+    .input-button button{
+        width: 100px;
+        height: 35px;
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .input-button input{
+        width: 210px;
+        height: 35px;
+        font-size: 10px;
+    }
+
+    .two-box-con{
+            /* flex-wrap: wrap; */
+         
+            flex-direction: column;
+    }
+
+    .box1{
+        width: 100%;
+        height: auto;
+        border-right: none;
+        border-top: 1px solid rgb(153, 153, 153);
+
+    }
+
+    .box2{
+        width: 100%;
+        height: auto;
+    }
+
+    .star-icon{
+        flex-wrap: wrap;
+    }
+
+    .main-image{
+        width: 100%;
+        height: auto;
+    }
+
+    .last-con{
+        width: 100%;
+        height: auto;
+    }
+
+    .last-box{
+        width: 100%;
+        height: auto;
+    }
+
+    .cookie-box h3{
+        display: none;
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    .we-use{
+        width: 100%;
+        height: auto;
+        padding: 0%;
+        flex-wrap: wrap;
+    }
+
+    .we-use p{
+        width: 100%;
+        height: auto;
+        width: 100%;
+        font-size: 7px;
+    }
+
+    .coolie-btn{
+        width: 100%;
+        height: auto;
+    }
+
+    .coolie-btn button{
+        font-size: 10px;
+        width: 50px;
+        height: 30px;
+    }
+
+
+    
+
+
+}
